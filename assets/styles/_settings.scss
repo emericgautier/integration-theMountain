@@ -21,3 +21,26 @@ $grey3: rgb(105, 105, 105);
     letter-spacing: 2px;
     text-transform: uppercase;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+li {
+    list-style: none;
+}
+a, 
+a:visited {
+    color: $white1;
+}
+body {
+    background: url(../img/bg.jpg) fixed center/cover;
+    text-align: center;
+    font-family: $font2;
+    max-width: 1300px;
+    margin: 0 auto;
+}
