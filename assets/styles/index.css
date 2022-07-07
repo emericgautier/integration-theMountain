@@ -56,6 +56,22 @@ body:before {
   }
 }
 
+.btn {
+  font-family: inter-bold, sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  width: 170px;
+  height: 45px;
+  background: none;
+  border: 2px solid rgb(17, 17, 17);
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.btn:hover {
+  transform: scale(1.05);
+}
+
 img {
   width: 50%;
 }/*# sourceMappingURL=index.css.map */
