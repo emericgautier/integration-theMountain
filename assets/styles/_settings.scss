@@ -43,4 +43,30 @@ body {
     font-family: $font2;
     max-width: 1300px;
     margin: 0 auto;
+
+    &:before {
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background: $black1;
+        -webkit-animation: animBefore 1.5s ease;
+                animation: animBefore 1.5s ease forwards;
+                -webkit-animation-delay: 0.15s;
+                        animation-delay: 0.15s;
+    }
+
+    @-webkit-keyframes animBefore {
+        to {
+            opacity: 0;
+        }
+    }
+
+    @keyframes animBefore {
+        to {
+            opacity: 0;
+        }
+    }
 }
