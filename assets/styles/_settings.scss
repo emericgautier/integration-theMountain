@@ -16,3 +16,8 @@ $grey1: rgb(209, 209, 209);
 $grey2: rgb(233, 233, 233);
 $grey3: rgb(105, 105, 105);
 
+@mixin title {
+    font-family: $font1;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
