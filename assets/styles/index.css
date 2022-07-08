@@ -267,6 +267,12 @@ main .section2 .left-part,
 main .section2 .right-part {
   padding: 60px;
 }
+@media screen and (max-width: 700px) {
+  main .section2 .left-part,
+main .section2 .right-part {
+    padding: 30px;
+  }
+}
 main .section2 .left-part span,
 main .section2 .right-part span {
   font-size: 0.75rem;
@@ -297,7 +303,7 @@ footer {
   grid-template-columns: 1fr 1fr;
   min-height: 640px;
   width: 85%;
-  margin: 0 auto;
+  margin: 0 auto 70px;
 }
 @media screen and (max-width: 900px) {
   footer {
